@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".EndGameActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/backgroundImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/jail_1"
+        android:background="@color/yellow_A700"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true">
+    </androidx.appcompat.widget.AppCompatImageView>
+
+
+
+    <com.google.android.material.textview.MaterialTextView
+       android:id="@+id/end_LBL_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="72sp"
+        tools:text ="you lost"
+        android:gravity="center"
+        android:textColor="@color/red_800"
+        android:textStyle="bold">
+    </com.google.android.material.textview.MaterialTextView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/newGame_IMG_Button"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/end_LBL_game"
+        android:layout_marginTop="@dimen/default_margin"
+       android:text ="New Game"
+        android:textColor="@color/white"
+         >
+    </com.google.android.material.button.MaterialButton>
+
+</RelativeLayout>
