@@ -42,7 +42,7 @@
         android:layout_centerInParent="true"
         android:layout_below="@id/end_LBL_game"
         android:layout_marginTop="@dimen/default_margin"
-       android:text ="New Game"
+       android:text ="Menu"
         android:textColor="@color/white"
          >
     </com.google.android.material.button.MaterialButton>
