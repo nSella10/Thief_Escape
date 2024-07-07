@@ -57,6 +57,7 @@
 ### How to Play
 
 -1.Use the left and right buttons to move the thief within the grid.
+
 -2.Avoid the police officers who appear randomly in the grid.
 -3.Collect coins that appear randomly based on a random condition.
 -4.The game ends after three collisions with the police officers.
