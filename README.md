@@ -59,8 +59,13 @@
 -1.Use the left and right buttons to move the thief within the grid.
 
 -2.Avoid the police officers who appear randomly in the grid.
+
 -3.Collect coins that appear randomly based on a random condition.
+
 -4.The game ends after three collisions with the police officers.
+
 -5.Your high score along with your location will be saved.
+
 -6.View and navigate to your high score locations from the high score list.
+
 -7.Restart the game from the game over screen.
