@@ -52,7 +52,7 @@
 
 
 ### video Game
-https://github.com/nSella10/Thief_Escape/assets/166402852/ac016f1c-63e7-4f5b-9634-49e38656c62a
+[https://github.com/nSella10/Thief_Escape/assets/166402852/ac016f1c-63e7-4f5b-9634-49e38656c62a](https://github.com/nSella10/Thief_Escape/assets/166402852/219f7f5b-b565-4165-8730-21704b5de034)
 
 ### How to Play
 
