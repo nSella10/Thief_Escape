@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Thief Escape</string>
+    <string name="coins_0">Coins: 0</string>
+    <string name="distance_000">Distance: 000</string>
+    <string name="my_map_api_key">AIzaSyDDmBF-oHZCeJo1kU6hwbBQ11lRlV7yL4o</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

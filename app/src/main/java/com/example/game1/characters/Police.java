@@ -19,9 +19,7 @@ public class Police {
         return col;
     }
 
-
-
-    public void moveForWard(){
-        row++;
+    public void moveForward() {
+        this.row++;
     }
 }

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpenActivity">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_TXT_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="60sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+
+    </com.google.android.material.textview.MaterialTextView>
+
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_TXT_menu"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:paddingHorizontal="50dp"
+        >
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_slow_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Slow Mode"
+            android:layout_margin="10dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_fast_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fast Mode"
+            android:layout_margin="10dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_sensor_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sensor Mode"
+            android:layout_margin="10dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_high_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="High Score"
+            android:layout_margin="10dp"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</RelativeLayout>
